@@ -1,0 +1,10 @@
+.coinContainer{
+    display:flex;
+    justify-content: center;
+}
+.coinRow{
+    display:flex;
+    flex-direction: row;
+    justify-content: Start;
+    align-items: centre;
+}
