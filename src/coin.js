@@ -8,8 +8,8 @@ function Coin(props) {
                 <div className="coin">
 
                     <img src={props.image} alt='coin-img'/>
-                        <h1>{props.name}</h1>
-                        <p>{props.symbol}</p>
+                        <h1 >{props.name}</h1>
+                        <p className="coinSymbol">{props.symbol}</p>
                 </div>
                 <div className="coinData">
 
