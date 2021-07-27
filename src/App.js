@@ -28,11 +28,22 @@ const filteredCoins = coins.filter(coin =>
   return (
     <div className="coinApp">
          <div className="coinSearch">
-            <h1 className="coinText">Enter a Coin</h1>
+            <h1 className="coinText">Enter a Crypto</h1>
             <form>
                 <input className="coinInput" type='text' placeHolder='Search' onChange={handleChange}/>
             </form>
         </div>
+
+      <table>
+        <tr>
+          <th>name</th>
+          <th>symbol</th>
+          <th>price</th>
+          <th>volume</th>
+          <th>priceChange</th>
+          <th>marCap</th>
+        </tr>
+      </table>
 
       {filteredCoins.map(coin =>{
         return (<Coin
