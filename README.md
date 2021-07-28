@@ -1,4 +1,4 @@
-# Cryptocurrency Trends Tracker App
+# Cryptocurrency Trends Tracker App : https://crypto-tracker-x7x.netlify.app/
 
 
 Cryptocurrency being a digital currency, it be used for transactions all around the world without having to pay a large amount of money or fees.
