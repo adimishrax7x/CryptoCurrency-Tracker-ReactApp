@@ -1,4 +1,15 @@
-# Getting Started with Create React App
+# Cryptocurrency Trends Tracker App
+
+
+Cryptocurrency being a digital currency, it be used for transactions all around the world without having to pay a large amount of money or fees.
+Along with this, it could potentially revolutionize the banking and financial services industries .
+
+My React App aims at providing latest updates on the trends in rates of every crypto currency that exists . 
+
+![img 1](https://github.com/adimishrax7x/CryptoCurrency-Tracker-ReactApp/blob/master/Screenshot%20(518).png)
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
