@@ -9,6 +9,9 @@ My React App aims at providing latest updates on the trends in rates of every cr
 ![img 1](https://github.com/adimishrax7x/CryptoCurrency-Tracker-ReactApp/blob/master/Screenshot%20(518).png)
 
 
+Using React Hooks (useState) The searchbar is optimised to show realtime search values as the user types in 'Letter-by-Letter'
+![img 2](https://github.com/adimishrax7x/CryptoCurrency-Tracker-ReactApp/blob/master/Screenshot%20(519).png)
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
