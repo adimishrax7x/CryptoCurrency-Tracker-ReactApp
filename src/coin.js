@@ -1,6 +1,7 @@
 import React from 'react'
 import './coin.css';
 
+//basic structure of each coin data getting displayed
 function Coin(props) {
     return (
         <div className="coinContainer">
