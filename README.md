@@ -6,11 +6,11 @@ Along with this, it could potentially revolutionize the banking and financial se
 
 My React App aims at providing latest updates on the trends in rates of every crypto currency that exists . 
 
-![img 1](https://github.com/adimishrax7x/CryptoCurrency-Tracker-ReactApp/blob/master/Screenshot%20(518).png)
+![img 1](https://github.com/adimishrax7x/CryptoCurrency-Tracker-ReactApp/blob/master/Screenshot%20(521).png)
 
 
 ## Using React Hooks (useState) The searchbar is optimised to show realtime search values as the user types in 'Letter-by-Letter'
-![img 2](https://github.com/adimishrax7x/CryptoCurrency-Tracker-ReactApp/blob/master/Screenshot%20(519).png)
+![img 2](https://github.com/adimishrax7x/CryptoCurrency-Tracker-ReactApp/blob/master/Screenshot%20(520).png)
 
 ## API used in the app can be acquired at : https://www.coingecko.com/en/api#explore-api
 
