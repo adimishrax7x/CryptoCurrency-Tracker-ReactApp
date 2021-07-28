@@ -6,24 +6,23 @@ import Coin from './coin';
 
 function App() {
 
-  const [coins,setCoins]=useState([]);
+  const [coins,setCoins]=useState([]);//state initialize
   const [search,setSearch]=useState('');
 
   useEffect( ()=>{
     axios.get('https://api.coingecko.com/api/v3/coins/markets?vs_currency=INR&order=market_cap_desc&per_page=100&page=1&sparkline=false')
     .then( res=>{
       setCoins(res.data);
-      //console.log(res.data);
     }).catch(error => console.log(error))
-  },[]);
+  },[]);//data being fetched from the api 
 
 const handleChange = e => {
   setSearch(e.target.value);
-}
+}//modifying state of the Search variable
 
 const filteredCoins = coins.filter(coin =>
   coin.name.toLowerCase().includes(search.toLowerCase())
-);
+);//ensuring that user input  gets converted into lowercase and then get compared to data/name attribute fetched from the API 
 
   return (
     <div className="coinApp">
@@ -47,7 +46,8 @@ const filteredCoins = coins.filter(coin =>
 
       {filteredCoins.map(coin =>{
         return (<Coin
-            key={coin.id}
+                  //assigning values to the parameters
+            key={coin.id}   
             image={coin.image}
             name={coin.name}
             symbol={coin.symbol}
