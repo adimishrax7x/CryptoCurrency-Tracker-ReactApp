@@ -44,9 +44,9 @@ const filteredCoins = coins.filter(coin =>
         </tr>
       </table>
 
-      {filteredCoins.map(coin =>{
+      { //assigning values to the parameters
+        filteredCoins.map(coin =>{
         return (<Coin
-                  //assigning values to the parameters
             key={coin.id}   
             image={coin.image}
             name={coin.name}
